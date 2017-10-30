@@ -8,8 +8,11 @@ main () {
 	int n1, n2, aux;
 	int f=0, g=0;
 	do{
-		cout<<"Ingrese dos numeros\n";
-		cin>>n1>>n2;
+		cout<<"Ingrese dos numeros\n\n";
+		cout<<"Ingrese un numero\n";
+		cin>>n1;
+		cout<<"Ingrese otro numero\n";
+		cin>>n2;
 		if(n1==n2){
 			cout<<"\n***ERROR 0x12833400c, Los dos numeros son iguales...***\n\n";
 		}
